@@ -8,11 +8,11 @@ These are the steps for Windows, other operating systems have not been tested so
 
 You must download `chromedriver.exe` and `ollama` from online.
 Place the `chromedriver.exe` file in your directory.
-In a terminal window, perform `ollama pull llama3.1` to obtain the ollama model.
+In a terminal window, perform `ollama pull mistral` to obtain the ollama model.
 [
     If you want to use a different model, first, pull that model with `ollama pull <model>`.
     Then go to `parse.py` and change the model in quotes:
-        `model = OllamaLLM(model="llama3.1")`
+        `model = OllamaLLM(model="mistral")`
     to another model. 
 ]
 
