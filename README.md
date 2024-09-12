@@ -21,6 +21,7 @@ Then type the desired website to scrape, and then type the prompt you would like
 
 ## Extensions:
 1. After parsing the data, it can then be exported to a CSV file: `parsed_data.csv` for usage elsewhere. This overwrites everytime you choose to export data.
+2. Functionality to parse multiple webpages at the same time. The written prompt is parsed to all the websites simultaneously. Export function also exports each website enumerated in the csv file appropriately.
 
 Inspired by TechWithTim's YouTube video on this project.
 
